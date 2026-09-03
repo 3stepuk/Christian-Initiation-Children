@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --accent: #7DBA84;
+    --accent-hover: #92c999;
+    --accent-dark: #5b9462;
+    --accent-glow: rgba(125, 186, 132, 0.16);
+    --bg-main: #0F0F0F;
+    --bg-card: #141414;
+    --bg-subtle: #161616;
+    --border-subtle: #262626;
+    --border-element: #404040;
+    --text-primary: #FFFFFF;
+    --text-body: #E2E8F0;
+    --text-muted: #94A3B8;
+    --text-subdued: #64748B;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', 'Georgia', serif;
+}
+
+.font-garamond {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', 'Georgia', serif;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+/* Custom scrollbar for Elegant Dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F0F0F;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}

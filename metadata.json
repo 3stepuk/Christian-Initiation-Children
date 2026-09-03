@@ -1,0 +1,6 @@
+{
+  "name": "Christian Initiation for Children — Catholic Preparation",
+  "description": "Catholic preparation catechism for unbaptised children aged 7-10 preparing for Baptism and First Holy Communion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
